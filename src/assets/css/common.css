@@ -1,0 +1,234 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-01-19 16:27:27
+ * @version $Id$
+ */
+.main{
+    position: absolute;
+    left:240px;
+    right:0;
+    height: 100%;
+    overflow-y: hidden;
+    // margin-left:240px;   
+}
+.dt-caption{
+    position: absolute;
+    top: 0;
+    left:0;
+    right: 0;
+    height: 60px;
+    border: 1px solid #d8dde8;
+}
+.dt-term-batch{
+    position: absolute;
+    top: 60px;
+    left:0;
+    right: 0;
+    height: 28px;
+    border-bottom: 1px solid #d8dde8;
+    padding: 10px 20px 9px;
+}
+.batch-opera-title{font-size: 12px;}
+.batch-opera-title em{color:#409EFF;}
+.dt-batch-opera .close{
+    float: right;
+    line-height: 28px;
+    cursor: pointer;
+}
+.dt-main{
+    position: absolute;
+    top: 150px;
+    bottom: 0;
+    width:100%;
+}
+.dt-batch-filterInfo{
+    position: absolute;
+    top: 110px;
+    height: 40px;
+    padding: 10px 20px 9px;
+}
+.filter-box{
+    padding: 5px;
+    font-size: 13px;
+    color: #999;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+.del{
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.dt-table{
+    position: absolute;
+    top: 0;
+    bottom: 50px;
+    overflow-y: scroll;
+}
+.pagination{
+    position: absolute;
+    bottom: 10px;
+}
+.dt-caption .caption-title{
+    color: #333;
+    float: left;
+    padding: 0 20px;
+    margin: 0;
+    font-size: 18px;
+    line-height: 60px;
+    font-weight: 500;
+}
+.dt-term-filter{
+    line-height:28px;
+}
+.dt-term-batch{
+   font-size: 12px; 
+}
+.dt-term-batch .icon{
+    font-size: 13px; 
+}
+.dt-filter-title{
+    font-size: 12px;
+    color: #999;
+    float: left;
+}
+.dt-filter-dropdown{
+    float: left;
+    margin: 0 20px;
+}
+.el-dropdown-link{
+    cursor: pointer;
+}
+.filter-dropdown{
+    width:150px;
+    max-height: 240px;
+    overflow-y: auto;
+    background: #fff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 10px;
+    border-radius: 2px;
+}
+.filter-dropdown .el-dropdown-menu__item{
+    line-height: 35px;
+}
+.crm-slide{
+    width: 950px;
+    position: fixed;
+    top:110px;
+    bottom: 0;
+    right: 0;
+    background-color: #fff;
+    box-shadow: -4px 0 2px -2px rgba(0,0,0,.0625);
+}
+.crm-detail-header{
+    height:60px;
+}
+.detail-header-img{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin-top:5px;
+    float: left;
+}
+.detail-header-content{
+    float: left;
+    margin:11.5px 5px 5px 10px;
+}
+.detail-header-content .detail-header-title{
+    font-size: 12px;
+    color: #999;
+    display: block;
+}
+.detail-header-name{
+    font-size: 16px;
+   color: #333; 
+}
+.detail-header-button{
+    float: right;
+    margin: 11.5px 15px 5px 10px;
+}
+.detail-header-opera{
+    float: right;
+    margin: 16.5px 20px 5px 10px;
+    cursor: pointer;
+}
+.detail-header-opera .icon{
+    margin: 5px;
+}
+.icon{
+    vertical-align: middle;
+    margin-right:5px;
+    width: 24px;
+    text-align: center;
+}
+.crm-detail-content{
+    position: absolute;
+    width: 100%;
+    top: 60px;
+    bottom: 40px;
+    overflow: scroll;
+}
+.crm-detail-content .collapse-title{
+    color: #333;
+    font-size: 14px;
+}
+.crm-detail-content .item{
+    width: 100%;
+    padding: 10px 0 5px 0;
+    overflow: hidden;
+     font-size: 13px;
+}
+
+.tab-pane-tit h3{
+   font-size: 14px;
+   font-weight: 500;
+   display: inline-block;
+   margin-top: 0; 
+   border-left: 3px solid #12d4d7;
+   padding-left: 10px;
+}
+.tab-pane-tit-btn{
+    float: right;
+    margin-right: 10px;
+}
+.tab-pane-con{
+    padding-left: 13px;
+}
+.item-allLine{
+    width: 100%;
+}
+.item-tit{
+    float: left;
+    width:92px;
+    color: #92a3b7;
+    word-break: break-all;
+}
+.item-con{
+    float: left;
+    color: #444;
+    word-break: break-all;
+}
+.item-l{
+    width: 50%;
+    float: left;
+}
+.item-r{
+    width: 50%;
+    float: right;
+}
+.crm-detail-content .contacts-list{
+    margin-bottom: 10px;
+}
+.half-line-form{
+    overflow: hidden;
+}
+.half-line-form .el-form-item{
+    width: 48%;
+    float: left;
+    margin-right: 2%;
+}
+.half-line-form .el-form-item .el-select{
+    width: 100%;
+}

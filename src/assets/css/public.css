@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-01-19 16:23:46
+ * @version $Id$
+ */
+body{margin: 0;}
+a {text-decoration: none;}
+em{font-style:normal}
+.round{
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+}
+.danger{
+    background: #ed5565;
+}
+.warning{
+    background: #f8ac59;
+}
+.info{
+    background: #189BFA;
+}
+.primary{
+    background: #d1dade;
+}
+.navy{
+    background: #1ab394;
+}
+.cp{
+    cursor: pointer;
+}
